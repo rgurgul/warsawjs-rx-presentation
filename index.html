@@ -28,297 +28,151 @@
         </div>
         <div class="details">
             <!-- 1. Avatar -->
-            <img src="pictures/fake-speaker-avatar.jpg" alt="Speaker"/>
+            <img src="pictures/rx/ja.jpg" width="200"/>
 
             <!-- 2. Speaker -->
-            <h2>Speaker name</h2>
+            <h2>Robert Gurgul</h2>
 
             <!-- 3. Presentation title -->
-            <h2><strong>"WarsawJS Slides: Template"</strong></h2>
+            <h2><strong>"Introduction to Reactive programming"</strong></h2>
 
             <!-- 4. Presentation date -->
-            <h2>XXXX-XX-XX</h2>
+            <h2>2016-04-13</h2>
 
             <!-- 5. Contact the speaker -->
-            <h2><a href="http://twitter.com/speaker">@speaker</a></h2>
+            <h2><a href="#">gurgul.robert@gmail.com</a></h2>
         </div>
     </section>
 
     <section class="slide">
-        <h2>Please update slides:</h2>
+        <h2>Classical programming</h2>
+        <img src="pictures/rx/pull.jpg" width="100%">
+        <p>like google or youtube search</p>
+    </section>
+
+    <section class="slide">
+        <h2>Reactive programming</h2>
+        <img src="pictures/rx/push.jpg" width="100%">
+        <p>like youtube subscription</p>
+    </section>
+
+    <section class="slide">
+        <h2>Where is problem (classical array approach)?</h2>
+        <img src="pictures/rx/classical-array.jpg" width="40%">
+    </section>
+
+    <section class="slide">
+        <h2>Reactive way</h2>
+        <img src="pictures/rx/rx-way.jpg" width="70%">
+    </section>
+
+    <section class="slide">
+        <h2>Another problem <br>Callback hell - aka “the flying V”</h2>
+        <img src="pictures/rx/callbacks.jpg" alt="">
+    </section>
+
+    <section class="slide">
+        <h2>Promises provide a cleaner solution</h2>
+        <img src="pictures/rx/promise.jpg" alt="">
+    </section>
+
+    <section class="slide">
+        <h2>We can compare Rx to promise.</h2>
+        <p>
+            However promises has 2 problems:
+        </p>
         <ul>
-            <li>rename project at <mark>GitHub</mark> with snake-case convention</li>
-            <li><mark>description</mark> and <mark>link</mark> on GitHub repository profile</li>
-            <li>link to <mark>"Fork me on GitHub"</mark> on the bottom of document</li>
-            <li>setup presentation title in
-                <ul>
-                    <li><mark>&lt;title&gt;</mark> tag on the top of document in <mark>&lt;head&gt;</mark> tag</li>
-                    <li><mark>README.md</mark> file</li>
-                    <li><mark>&lt;h1&gt;</mark> tag at <mark>&lt;header&gt;</mark> tag on the top of document</li>
-                </ul>
-            </li>
+            <li>guaranteed future</li>
+            <li>single value</li>
         </ul>
     </section>
 
     <section class="slide">
-        <h2>List Navigation</h2>
-        <ol>
-            <li>Ennui keffiyeh thundercats</li>
-            <li class="next">Jean shorts biodiesel</li>
-            <li class="next">Terry richardson, swag blog</li>
-            <li class="next">Locavore umami vegan helvetica</li>
-            <li class="next">Fingerstache kale chips</li>
-        </ol>
-        <p class="next">Before they sold out master</p>
+        <h2>ReactiveX is a combination of the best ideas from the </h2>
+        <ul>
+            <li>Observer pattern</li>
+            <li>Iterator pattern,</li>
+            <li>and functional programming</li>
+        </ul>
+        <p><b>It's mainly programming with event streams.</b></p>
     </section>
 
     <section class="slide">
-        <h2>Slide Header</h2>
-
-        <p>Echo Park 8-bit sustainable umami deep v Kickstarter. DIY cliche typewriter brunch, Odd Future sriracha pickled aesthetic. Farm-to-table bespoke fingerstache, kale chips umami brunch letterpress.</p>
-        <p>Whatever authentic disrupt, you probably haven't heard of them direct trade mlkshk Etsy. Gluten-free roof party plaid four loko quinoa.</p>
-        <p class="note">Echo Park 8-bit sustainable umami deep v Kickstarter.</p>
+        <h2>What is an event stream?</h2>
+        <p>It's a sequence of events happening over time. </p>
+        <img src="pictures/rx/event-stream.jpg" width="80%">
     </section>
 
     <section class="slide">
-        <h2>Inline Elements</h2>
-
-        <p>Retro meh brunch <a href="">aesthetic</a> Cosby sweater Shoreditch. Banksy Tumblr
-            <strong>sriracha</strong>, flexitarian pug chia master cleanse vinyl
-            <em>wayfarers</em> fanny pack bespoke Helvetica <b>roof</b> party. Messenger bag retro cred
-            <i>Portland</i> next level. Yr stumptown Schlitz Carles deep v small batch. Hella sustainable messenger bag,
-            <mark>leggings</mark>
-            skateboard literally<sup>1</sup> bicycle rights H<sub>2</sub>0 mumblecore banh mi DIY VHS. Semiotics four loko street art asymmetrical. Asymmetrical
-            <code>&lt;paleo&gt;</code> you probably haven’t heard of.
-        </p>
-
-        <footer class="footer">
-            <p>Retro meh brunch <a href="">aesthetic</a> Cosby sweater Shoreditch. Banksy Tumblr
-                <strong>sriracha</strong>, flexitarian pug chia master cleanse vinyl
-                <em>wayfarers</em> fanny pack bespoke Helvetica <b>roof</b> party. Messenger bag retro cred
-                <i>Portland</i> next level. Yr stumptown Schlitz Carles deep v small batch. Hella sustainable messenger bag,
-                <mark>leggings</mark>
-                skateboard literally<sup>1</sup> bicycle rights H<sub>2</sub>0 mumblecore banh mi DIY VHS. Semiotics four loko street art asymmetrical. Asymmetrical
-                <code>&lt;paleo&gt;</code> you probably haven’t heard of.
-            </p>
-        </footer>
+        <h2>The functional style of Rx made the code look more declarative than imperative. </h2>
+        <img src="pictures/rx/rx-example.jpg" width="100%">
+        <p><b>no if, no for-loop</b></p>
     </section>
 
     <section class="slide">
-        <h2>Columns</h2>
-        <p class="double">Echo Park 8-bit sustainable umami deep v Kickstarter. DIY cliche typewriter brunch, Odd Future sriracha pickled aesthetic. Farm-to-table bespoke fingerstache, kale chips umami brunch American Apparel letterpress. Whatever authentic disrupt, you probably haven't heard of them direct trade mlkshk Etsy. Gluten-free roof party plaid American Apparel four loko quinoa. Echo Park 8-bit sustainable.</p>
+        <h2>How to define it?</h2>
+        <img src="pictures/rx/how.jpg" width="40%">
     </section>
 
     <section class="slide">
-        <h2>Quotes</h2>
-        <blockquote>
-            <p>Flannel bicycle rights locavore selfies skateboard. Authentic fanny pack paleo four loko bespoke. Artisan tattooed chia XOXO ennui, lomo disrupt 8-bit art party Tumblr scenester.</p>
-        </blockquote>
-        <figure>
-            <blockquote>
-                <p>Post-ironic fashion axe flexitarian, Tonx narwhal messenger bag Tumblr. Portland gentrify deep v kale chips literally.</p>
-            </blockquote>
-            <figcaption>Yours Truly</figcaption>
-        </figure>
+        <img src="pictures/rx/create.jpg" width="90%">
     </section>
 
     <section class="slide">
-        <h2>Nested Lists</h2>
-        <ol>
-            <li>Literally viral vegan, ugh drinking vinegar photo booth</li>
-            <li>Wes Anderson chillwave Marfa pour-over Etsy banh mi</li>
-            <li>Ethnic polaroid lo-fi iPhone ennui
-                <ul>
-                    <li>Yr wayfarers before they sold out Kickstarter asymmetrical</li>
-                    <li>Irony flexitarian readymade quinoa, kogi bespoke meggings narwhal</li>
-                    <li>Skateboard Etsy twee artisan Echo Park</li>
-                </ul>
-            </li>
-            <li>Tonx kitsch fingerstache readymade, retro single-origin coffee</li>
-        </ol>
+        <img src="pictures/rx/event-stream.jpg" width="100%">
     </section>
 
     <section class="slide">
-        <h2>Simple Table</h2>
-        <table>
-            <tr>
-                <th scope="col">Gentrify</th>
-                <th>Twee</th>
-                <th>Artisan</th>
-                <th>Banksy</th>
-            </tr>
-            <tr>
-                <th scope="row">Messenger</th>
-                <td>Mixtape</td>
-                <td>Small batch</td>
-                <td>Bicycle rights</td>
-            </tr>
-            <tr>
-                <th scope="row">Meggings</th>
-                <td>Freegan</td>
-                <td>Retro biodiesel</td>
-                <td>Slow-carb</td>
-            </tr>
-            <tr>
-                <th scope="row">Vegan</th>
-                <td>Occupy</td>
-                <td>Normcore</td>
-                <td>Put a bird on it</td>
-            </tr>
-            <tr>
-                <th scope="row">Next level</th>
-                <td>Selfies</td>
-                <td>Sustainable</td>
-                <td>Organic</td>
-            </tr>
-            <tr>
-                <th scope="row">Umami</th>
-                <td>Asymmetrical</td>
-                <td>Keytar</td>
-                <td>Craft beer</td>
-            </tr>
-            <tr>
-                <th scope="row">Biodiesel</th>
-                <td>Haven’t heard</td>
-                <td>Skateboard</td>
-                <td>Farm-to-table</td>
-            </tr>
-        </table>
+        <img src="pictures/rx/combine1.jpg" width="100%">
+    </section>
+
+
+    <section class="slide">
+        <img src="pictures/rx/combine.jpg" width="90%">
     </section>
 
     <section class="slide">
-        <h2>Striped Table</h2>
-        <table class="striped">
-            <tr>
-                <th scope="col">Gentrify</th>
-                <th>Twee</th>
-                <th>Artisan</th>
-                <th>Banksy</th>
-            </tr>
-            <tr>
-                <th scope="row">Messenger</th>
-                <td>Mixtape</td>
-                <td>Small batch</td>
-                <td>Bicycle rights</td>
-            </tr>
-            <tr>
-                <th scope="row">Meggings</th>
-                <td>Freegan</td>
-                <td>Retro biodiesel</td>
-                <td>Slow-carb</td>
-            </tr>
-            <tr>
-                <th scope="row">Vegan</th>
-                <td>Occupy</td>
-                <td>Normcore</td>
-                <td>Put a bird on it</td>
-            </tr>
-            <tr>
-                <th scope="row">Next level</th>
-                <td>Selfies</td>
-                <td>Sustainable</td>
-                <td>Organic</td>
-            </tr>
-            <tr>
-                <th scope="row">Umami</th>
-                <td>Asymmetrical</td>
-                <td>Keytar</td>
-                <td>Craft beer</td>
-            </tr>
-            <tr>
-                <th scope="row">Biodiesel</th>
-                <td>Haven’t heard</td>
-                <td>Skateboard</td>
-                <td>Farm-to-table</td>
-            </tr>
-        </table>
-    </section>
-
-    <section class="slide prism">
-        <h2>Listing Slide</h2>
-
-        <pre style="font-size: 45px;" class="language-javascript line-numbers">
-            <code>
-                function wrap(value) {
-                    return function () {
-                        return value;
-                    }
-                }
-
-                function bind(monad, f) {
-                    return f(monad());
-                }
-            </code>
-        </pre>
-    </section>
-
-    <section class="slide prism">
-        <pre style="font-size: 30px;" class="language-javascript line-numbers">
-            <code>
-                var monad = wrap('cookie');
-                bind(monad, (value) => {
-                    console.info(value);
-                    return wrap(value);
-                });
-                monad = bind(monad, (value) => {
-                    return wrap({ type: value });
-                });
-                bind(monad, (value) => {
-                    console.log(value);
-                    return wrap(value);
-                });
-            </code>
-        </pre>
+        <img src="pictures/rx/listen.jpg" width="100%">
     </section>
 
     <section class="slide">
-        <h2 class="shout"><a href="">Linked</a> Shout</h2>
+        <h2>Rx operators by examples</h2>
+        <p>Calorie calculator:</p>
+        <a href="http://js.edu.pl/rx/warsawjs/calc.html" target="_blank">http://js.edu.pl/rx/warsawjs/calc.html</a>
+        <ul>
+            <li>fromEvent</li>
+            <li>combineLatest</li>
+            <li>where / filter</li>
+            <li>map</li>
+            <li>subscribe / forEach</li>
+        </ul>
     </section>
 
     <section class="slide">
-        <h2 class="shout grow">Effect: Growing Shout</h2>
+        <p>Calorie calculator code:</p>
+        <img src="pictures/rx/calc.jpg" width="100%">
     </section>
 
     <section class="slide">
-        <h2 class="shout shrink">Effect: Shrinking Shout</h2>
+        <h2>Rx operators by examples <br>easy geme:</h2>
+        <a href="http://js.edu.pl/rx/warsawjs/game.html" target="_blank">http://js.edu.pl/rx/warsawjs/game.html</a>
+        <ul>
+            <li>interval</li>
+            <li>scan</li>
+            <li>takeWhile</li>
+            <li>withLatestFrom</li>
+        </ul>
     </section>
+
 
     <section class="slide">
-        <figure>
-            <img class="cover" src="vendors/shower-ribbon/pictures/exact.png" alt="">
-            <figcaption class="white">Copyright © 2016 <a href="">Yours Truly</a>, Famous Inc.</figcaption>
-        </figure>
+        <h2>thanks!</h2>
     </section>
 
-    <section class="slide">
-        <img class="cover" src="vendors/shower-ribbon/pictures/tall.png" alt="">
-    </section>
 
-    <section class="slide">
-        <img class="cover" src="vendors/shower-ribbon/pictures/wide.png" alt="">
-    </section>
 
-    <section class="slide white">
-        <img class="place top left" src="vendors/shower-ribbon/pictures/square.png" alt="">
-        <img class="place top" src="vendors/shower-ribbon/pictures/square.png" alt="">
-        <img class="place top right" src="vendors/shower-ribbon/pictures/square.png" alt="">
 
-        <img class="place left" src="vendors/shower-ribbon/pictures/square.png" alt="">
-        <img class="place" src="vendors/shower-ribbon/pictures/square.png" alt="">
-        <img class="place right" src="vendors/shower-ribbon/pictures/square.png" alt="">
 
-        <img class="place bottom left" src="vendors/shower-ribbon/pictures/square.png" alt="">
-        <img class="place bottom" src="vendors/shower-ribbon/pictures/square.png" alt="">
-        <img class="place bottom right" src="vendors/shower-ribbon/pictures/square.png" alt="">
-    </section>
-
-    <section class="slide" data-timing="00:03">
-        <h3 class="shout">Automatic switch slide after <strong>3 secs</strong> ...</h3>
-    </section>
-
-    <section class="slide">
-        <h3 class="shout">See you next month at WarsawJS</h3>
-    </section>
 
     <div class="progress"></div>
 
